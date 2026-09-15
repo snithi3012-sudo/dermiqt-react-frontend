@@ -1,0 +1,327 @@
+/* =========================
+   PURE SKINCARE PAGE
+========================= */
+
+.pure-page {
+  width: 100%;
+  background: #fff2ed;
+  padding: 65px 62px 75px;
+
+  color: #171311;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* =========================
+   TOP
+========================= */
+
+.pure-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.pure-top h2 {
+  font-size: 76px;
+  font-weight: 400;
+  letter-spacing: -2px;
+}
+
+.top-images {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.top-images img {
+  width: 128px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.top-images span {
+  margin-left: 42px;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+
+/* =========================
+   MAIN HEADING
+========================= */
+
+.pure-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  margin-top: 24px;
+  padding-left: 26px;
+}
+
+.pure-heading p {
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.pure-heading h1 {
+  margin-right: 165px;
+
+  font-size: 76px;
+  font-weight: 400;
+
+  letter-spacing: -2px;
+  line-height: 1;
+}
+
+
+/* =========================
+   CARDS
+========================= */
+
+.pure-cards {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 24px;
+
+  margin-top: 50px;
+}
+
+
+/* =========================
+   LEFT CARD
+========================= */
+
+.care-card {
+  height: 320px;
+
+  position: relative;
+  overflow: hidden;
+
+  padding: 32px 34px;
+
+  background: #f5d8ca;
+}
+
+.care-card h3 {
+  font-size: 36px;
+  line-height: 1.05;
+  font-weight: 400;
+}
+
+
+/* PRODUCT */
+
+.product-image {
+  position: absolute;
+
+  right: 40px;
+  top: 26px;
+
+  width: 182px;
+
+  height: 233px;
+
+  transform: rotate(-15deg);
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+}
+
+
+/* POWERED */
+
+.powered {
+  position: absolute;
+
+  left: 34px;
+  bottom: 76px;
+
+  font-size: 15px;
+}
+
+
+/* DESCRIPTION */
+
+.care-description {
+  position: absolute;
+
+  left: 34px;
+  bottom: 25px;
+
+  font-size: 21px;
+  line-height: 1.15;
+}
+
+
+/* YELLOW CIRCLE */
+
+.pure-badge {
+  position: absolute;
+
+  right: 100px;
+  bottom: 39px;
+
+  width: 102px;
+  height: 102px;
+
+  border-radius: 50%;
+
+  background: #f5c52d;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  font-size: 22px;
+}
+
+.pure-badge small {
+  font-size: 12px;
+}
+
+
+/* =========================
+   RIGHT CARD
+========================= */
+
+.everyday-card {
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+
+  padding: 32px 36px;
+
+  background: #f9eee9;
+}
+
+.everyday-card h3 {
+  font-size: 35px;
+  line-height: 1.05;
+  font-weight: 400;
+
+  margin: 0;
+}
+
+
+/* LUMIERE */
+
+.signature {
+  position: absolute;
+
+  right: 40px;
+  top: 61px;
+
+  font-family: cursive;
+  font-size: 25px;
+
+  transform: rotate(-7deg);
+}
+
+
+/* =========================
+   BOTTOM IMAGE AREA
+========================= */
+
+.bottom-images {
+  position: absolute;
+
+  left: 54px;
+  right: 40px;
+  bottom: 0;
+
+  height: 200px;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 21px;
+}
+
+.bottom-images img {
+  width: 100%;
+  height: 200px;
+
+  display: block;
+
+  object-fit: cover;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 800px) {
+
+  .pure-page {
+    padding: 50px 33px 60px;
+  }
+
+  .pure-top {
+    display: block;
+  }
+
+  .pure-top h2 {
+    font-size: 58px;
+  }
+
+  .top-images {
+    margin-top: 18px;
+  }
+
+  .pure-heading {
+    display: block;
+  }
+
+  .pure-heading h1 {
+    margin: 22px 0 0;
+
+    font-size: 58px;
+  }
+
+  .pure-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@media (max-width: 500px) {
+
+  .pure-page {
+    padding: 37px 23px;
+  }
+
+  .pure-top h2 {
+    font-size: 45px;
+  }
+
+  .pure-heading h1 {
+    font-size: 45px;
+  }
+
+  .care-card,
+  .everyday-card {
+    height: 285px;
+  }
+
+  .care-card h3 {
+    font-size: 29px;
+  }
+
+  .everyday-card h3 {
+    font-size: 29px;
+  }
+}

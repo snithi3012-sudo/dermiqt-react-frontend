@@ -1,0 +1,587 @@
+/* =====================================
+   RADIANCE PAGE
+===================================== */
+
+.radiance-page {
+  width: 100%;
+
+  background: #fff3ee;
+
+  color: #171311;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  padding: 68px 58px 78px;
+
+  overflow: hidden;
+}
+
+
+/* =====================================
+   TOP SECTION
+===================================== */
+
+.radiance-top {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  min-height: 620px;
+
+  border-bottom: 1px solid rgba(60, 35, 25, 0.12);
+}
+
+
+/* =====================================
+   LEFT SIDE
+===================================== */
+
+.radiance-left {
+  position: relative;
+
+  padding: 26px 48px 48px 5px;
+
+  border-right: 1px solid rgba(60, 35, 25, 0.12);
+}
+
+.radiance-left h1 {
+  font-size: 68px;
+
+  line-height: 0.98;
+
+  font-weight: 400;
+
+  letter-spacing: -1.5px;
+
+  margin: 0 0 36px;
+}
+
+
+/* WATCH BUTTON */
+
+.stories-btn {
+  border: none;
+
+  background: transparent;
+
+  font-size: 16px;
+
+  font-weight: bold;
+
+  padding: 0;
+
+  cursor: pointer;
+}
+
+
+/* SCIENCE BOX */
+
+.science-box {
+  position: relative;
+
+  width: 85%;
+
+  height: 190px;
+
+  background: #f0d5c9;
+
+  margin-top: 36px;
+
+  padding: 30px;
+}
+
+.science-box h3 {
+  font-size: 31px;
+
+  line-height: 1;
+
+  font-weight: 400;
+}
+
+.science-product {
+  position: absolute;
+
+  right: 14px;
+
+  bottom: 10px;
+
+  width: 180px;
+
+  height: 163px;
+}
+
+.science-product img {
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: contain;
+}
+
+.science-text {
+  font-size: 15px;
+
+  line-height: 1.4;
+
+  margin-top: 20px;
+}
+
+
+/* =====================================
+   RIGHT COLLAGE
+===================================== */
+
+.radiance-collage {
+  position: relative;
+
+  min-height: 620px;
+
+  padding: 26px;
+}
+
+
+/* COMMON COLLAGE IMAGE */
+
+.collage-image {
+  position: absolute;
+
+  overflow: hidden;
+}
+
+.collage-image img {
+  width: 100%;
+
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+}
+
+
+/* IMAGE 1 */
+
+.image-one {
+  left: 30px;
+
+  top: 26px;
+
+  width: 260px;
+
+  height: 204px;
+}
+
+
+/* IMAGE 2 */
+
+.image-two {
+  left: 30px;
+
+  top: 248px;
+
+  width: 162px;
+
+  height: 178px;
+}
+
+
+/* IMAGE 3 */
+
+.image-three {
+  right: 26px;
+
+  top: 276px;
+
+  width: 260px;
+
+  height: 255px;
+}
+
+
+/* COLLAGE TEXT */
+
+.collage-text {
+  position: absolute;
+
+  background: #fff3ee;
+
+  padding: 15px;
+
+  font-size: 15px;
+
+  line-height: 1.1;
+}
+
+.collage-text h4 {
+  font-size: 17px;
+
+  font-weight: 500;
+
+  margin: 0;
+}
+
+.collage-text p {
+  margin-top: 6px;
+
+  font-size: 15px;
+}
+
+
+/* TEXT POSITIONS */
+
+.text-one {
+  right: 26px;
+
+  top: 28px;
+
+  width: 180px;
+}
+
+.text-two {
+  left: 205px;
+
+  top: 276px;
+}
+
+.text-three {
+  right: 30px;
+
+  bottom: 58px;
+}
+
+
+/* =====================================
+   BOTTOM SECTION
+===================================== */
+
+.radiance-bottom {
+  position: relative;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+
+  min-height: 610px;
+
+  padding-top: 58px;
+}
+
+
+/* =====================================
+   BOTTOM INTRO
+===================================== */
+
+.bottom-intro {
+  padding: 10px 32px 0 5px;
+}
+
+.intro-small {
+  font-size: 20px;
+
+  margin-bottom: 26px;
+}
+
+.bottom-intro h2 {
+  font-size: 33px;
+
+  font-weight: 400;
+
+  margin-bottom: 20px;
+}
+
+.intro-description {
+  font-size: 18px;
+
+  font-weight: 500;
+}
+
+
+/* =====================================
+   CENTER MODEL
+===================================== */
+
+.bottom-model {
+  height: 505px;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: flex-start;
+
+  overflow: hidden;
+}
+
+.bottom-model img {
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
+  object-position: center top;
+}
+
+
+/* =====================================
+   ROUTINE CONTENT
+===================================== */
+
+.routine-content {
+  padding: 58px 15px 0 58px;
+}
+
+.routine-small {
+  font-size: 16px;
+
+  margin-bottom: 24px;
+}
+
+.routine-content h1 {
+  font-size: 60px;
+
+  line-height: 0.98;
+
+  font-weight: 400;
+
+  letter-spacing: -1px;
+}
+
+.routine-description {
+  font-size: 16px;
+
+  line-height: 1.4;
+
+  margin-top: 26px;
+}
+
+
+/* =====================================
+   HEALTHY CARD
+===================================== */
+
+.healthy-card {
+  position: absolute;
+
+  left: 5px;
+
+  bottom: 0;
+
+  width: 295px;
+
+  height: 165px;
+
+  background: #70402f;
+
+  color: white;
+
+  padding: 24px;
+}
+
+.healthy-card h3 {
+  font-size: 20px;
+
+  font-weight: 400;
+
+  margin-bottom: 24px;
+}
+
+.healthy-card strong {
+  font-size: 38px;
+
+  font-weight: 400;
+}
+
+
+/* =====================================
+   WELLNESS CARD
+===================================== */
+
+.wellness-card {
+  position: absolute;
+
+  left: 330px;
+
+  bottom: 0;
+
+  width: 295px;
+
+  height: 165px;
+
+  background: #f0d5c9;
+
+  padding: 20px;
+
+  overflow: hidden;
+}
+
+.wellness-card h3 {
+  font-size: 20px;
+
+  line-height: 1;
+
+  font-weight: 400;
+}
+
+.wellness-card img {
+  position: absolute;
+
+  right: 10px;
+
+  bottom: 0;
+
+  width: 142px;
+
+  height: 142px;
+
+  object-fit: contain;
+}
+
+
+/* =====================================
+   NATURAL CARD
+===================================== */
+
+.natural-card {
+  position: absolute;
+
+  right: 5px;
+
+  bottom: 0;
+
+  width: 248px;
+
+  height: 165px;
+
+  background: #f4e6df;
+
+  padding: 20px;
+
+  overflow: hidden;
+}
+
+.natural-card h3 {
+  font-size: 20px;
+
+  font-weight: 400;
+}
+
+.natural-card img {
+  position: absolute;
+
+  right: 24px;
+
+  bottom: 0;
+
+  width: 102px;
+
+  height: 116px;
+
+  object-fit: contain;
+}
+
+
+/* =====================================
+   RESPONSIVE
+===================================== */
+
+@media (max-width: 900px) {
+
+  .radiance-page {
+    padding: 46px 32px;
+  }
+
+  .radiance-top {
+    grid-template-columns: 1fr;
+
+    min-height: auto;
+  }
+
+  .radiance-left {
+    border-right: none;
+
+    border-bottom: 1px solid rgba(60, 35, 25, 0.12);
+
+    min-height: 600px;
+  }
+
+  .radiance-collage {
+    min-height: 600px;
+  }
+
+  .radiance-bottom {
+    grid-template-columns: 1fr 1fr;
+
+    min-height: 980px;
+  }
+
+  .routine-content {
+    padding-left: 32px;
+  }
+}
+
+
+/* =====================================
+   MOBILE
+===================================== */
+
+@media (max-width: 600px) {
+
+  .radiance-page {
+    padding: 38px 22px;
+  }
+
+  .radiance-left h1 {
+    font-size: 50px;
+  }
+
+  .science-box {
+    width: 100%;
+  }
+
+  .radiance-bottom {
+    display: block;
+
+    min-height: auto;
+  }
+
+  .bottom-intro {
+    margin-bottom: 30px;
+  }
+
+  .bottom-model {
+    height: 420px;
+
+    margin-bottom: 30px;
+  }
+
+  .routine-content {
+    padding: 30px 5px 230px;
+  }
+
+  .routine-content h1 {
+    font-size: 50px;
+  }
+
+  .healthy-card {
+    left: 0;
+  }
+
+  .wellness-card {
+    left: auto;
+
+    right: 0;
+  }
+
+  .natural-card {
+    position: relative;
+
+    right: auto;
+
+    bottom: auto;
+
+    width: 100%;
+
+    margin-top: 170px;
+  }
+}
